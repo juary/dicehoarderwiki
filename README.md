@@ -3,29 +3,27 @@
 An independent, static fan resource for **Dice Hoarder**, the cozy first-person dice-organizing game by DieCorp Games. The site brings together a quick introduction, practical starting points, game systems, frequently asked questions, and links to more detailed guides.
 
 - Project website: https://juary.github.io/dicehoarderwiki/
-- Requested root address (requires a separate GitHub account or organization): https://dicehoarderwiki.github.io/
 - Companion guide and wiki: https://dicehoarder.site/
 - Official game page: https://store.steampowered.com/app/3687090/Dice_Hoarder/
 
 ## What is in this project?
 
-The homepage is a lightweight guide hub inspired by the navigation and information layout of [Melvor Idle 2 Wiki](https://melvoridle2.online/). It is designed for desktop and mobile visitors and includes links to beginner guides, dice sets, game modes, collectibles and the companion wiki. The game image is loaded from the companion site; game imagery and trademarks belong to their respective owners.
+The homepage is a lightweight guide hub inspired by the navigation and information layout of [Melvor Idle 2 Wiki](https://melvoridle2.online/). It is designed for desktop and mobile visitors and includes links to beginner guides, dice sets, game modes, collectibles and the companion wiki. The game image is included locally; game imagery and trademarks belong to their respective owners.
 
 ## Run locally
 
-Open `index.html` in a browser. No build step, package manager, or server is required. An internet connection is needed for externally hosted fonts, images and links.
+Open `index.html` in a browser. No build step, package manager, or server is required. An internet connection is needed for externally hosted fonts and links.
 
 ## Project structure
 
 - `index.html`: homepage content and navigation.
 - `styles.css`: responsive visual styles.
+- `hero.webp`: game image used on the homepage.
 - `README.md`: project overview and publishing instructions.
 
 ## Publishing with GitHub Pages
 
-The requested root address, https://dicehoarderwiki.github.io/, is a GitHub Pages user or organization site. It requires a GitHub account or organization named `dicehoarderwiki` and a public repository named `dicehoarderwiki.github.io` owned by that account or organization. Push the site files to its default branch, then in **Settings > Pages** select **Deploy from a branch**, the default branch, and `/ (root)`. GitHub Pages will publish the site after the deployment completes.
-
-A repository named `juary/dicehoarderwiki` can instead publish as a project site at `https://juary.github.io/dicehoarderwiki/`; it cannot claim another account's `github.io` root address. The relative paths in this project support either location.
+The repository publishes as a GitHub Pages project site at https://juary.github.io/dicehoarderwiki/. To configure or update the deployment, push the files to `main`, then select **Settings > Pages > Deploy from a branch**, `main`, and `/ (root)`. GitHub Pages publishes updates after the deployment completes. Relative asset paths work under the project URL.
 
 ## Maintenance and contributions
 
