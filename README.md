@@ -2,7 +2,8 @@
 
 An independent, static fan resource for **Dice Hoarder**, the cozy first-person dice-organizing game by DieCorp Games. The site brings together a quick introduction, practical starting points, game systems, frequently asked questions, and links to more detailed guides.
 
-- Intended website: https://dicehoarderwiki.github.io/
+- Project website: https://juary.github.io/dicehoarderwiki/
+- Requested root address (requires a separate GitHub account or organization): https://dicehoarderwiki.github.io/
 - Companion guide and wiki: https://dicehoarder.site/
 - Official game page: https://store.steampowered.com/app/3687090/Dice_Hoarder/
 
