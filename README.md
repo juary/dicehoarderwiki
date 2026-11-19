@@ -8,7 +8,7 @@ An independent, static fan resource for **Dice Hoarder**, the cozy first-person 
 
 ## What is in this project?
 
-The homepage is a lightweight guide hub inspired by the navigation and information layout of [Melvor Idle 2 Wiki](https://melvoridle2.online/). It is designed for desktop and mobile visitors and includes links to beginner guides, dice sets, game modes, collectibles and the companion wiki. The game image is included locally; game imagery and trademarks belong to their respective owners.
+The homepage is a lightweight guide hub. It is designed for desktop and mobile visitors and includes links to beginner guides, dice sets, game modes, collectibles and the companion wiki. The game image is included locally; game imagery and trademarks belong to their respective owners.
 
 ## Run locally
 
