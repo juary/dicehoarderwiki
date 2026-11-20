@@ -2,16 +2,24 @@
 
 An independent, English-language field guide for **Dice Hoarder** by DieCorp Games. Browse source-backed guides, game references, collectible leads, and update notes.
 
-- GitHub Pages site: https://juary.github.io/dicehoarderwiki/
-- Companion wiki: https://dicehoarder.site/
 - Repository: https://github.com/juary/dicehoarderwiki
 - Official game page: https://store.steampowered.com/app/3687090/Dice_Hoarder/
 
-## Browse the wiki
+## Project websites
 
-The site includes a home page, category indexes, standalone article pages, browser-side search, a responsive layout, dark and light themes, a 404 page, and a generated sitemap. Article content and sources are kept in `src/data/content.json`; site labels and project details are in `src/data/site.json`.
+**GitHub Pages wiki:** [https://juary.github.io/dicehoarderwiki/](https://juary.github.io/dicehoarderwiki/)
 
-The static pages are generated with Node.js and have no third-party dependencies or backend. Article content remains readable without client-side JavaScript. Search and theme controls use a small browser script.
+This repository publishes an English-language static wiki at the URL above. It organizes source-backed beginner guides, game references, achievement requirements, collectible search leads, and dated update summaries into category indexes and standalone article pages.
+
+**Companion wiki:** [https://dicehoarder.site/](https://dicehoarder.site/)
+
+The companion site is a separate Dice Hoarder resource with its own pages and publishing setup. The two sites are maintained separately; neither is an official DieCorp Games website.
+
+## What this project contains
+
+The GitHub Pages site includes a home page, category indexes for Guides, Game Wiki, Collectibles, and Updates, standalone article pages, browser-side search, a responsive layout, dark and light themes, a 404 page, and a generated sitemap. Game screenshots are stored locally and credited in the editorial notes.
+
+Article content and sources are kept in `src/data/content.json`; site labels, project details, and both site addresses are in `src/data/site.json`. The static pages are generated with Node.js and have no third-party dependencies or backend. Article content remains readable without client-side JavaScript; search and theme controls use a small browser script.
 
 ## Run locally
 
