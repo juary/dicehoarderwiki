@@ -1,0 +1,658 @@
+{
+  "categories": [
+    {
+      "id": "guides",
+      "title": "Guides",
+      "description": "Learn a steady sorting routine, find abilities, and work toward completion goals.",
+      "icon": "guides"
+    },
+    {
+      "id": "wiki",
+      "title": "Game Wiki",
+      "description": "Look up dice shapes, matching rules, and the ways you can play.",
+      "icon": "wiki"
+    },
+    {
+      "id": "collectibles",
+      "title": "Collectibles",
+      "description": "Track hidden edible dice with clearly attributed community reports.",
+      "icon": "collectibles"
+    },
+    {
+      "id": "updates",
+      "title": "Updates",
+      "description": "Read source-backed notes about the release and published patches.",
+      "icon": "updates"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "beginner-guide",
+      "category": "guides",
+      "title": "Your First Shift: A Beginner Guide",
+      "description": "Learn the seven-piece set, use readable die labels, and build a calm routine for your first days in the shop.",
+      "eyebrow": "START HERE",
+      "updated": "2026-11-19",
+      "readTime": 4,
+      "featured": true,
+      "image": "shop.webp",
+      "imageAlt": "Dice scattered across wooden sorting trays in the Dice Hoarder shop",
+      "sections": [
+        {
+          "id": "first-shift",
+          "title": "Start by learning what belongs together",
+          "paragraphs": [
+            "Dice Hoarder is a single-player organizing game set in a mysterious dice shop. The store describes more than 400 seven-piece sets and says there are no timers, so take time to inspect a confusing die instead of rushing a match.",
+            "This is a suggested learning route based on published game descriptions, not a tested fastest strategy or story walkthrough."
+          ]
+        },
+        {
+          "id": "match-a-set",
+          "title": "Compare the labels, then check the shapes",
+          "paragraphs": [
+            "The left-hand panel displays the material and colour for a held or selected die. Use those readable labels when two finishes look similar, then check that the set contains each of the seven required shapes.",
+            "A D10 and a percentile die are separate positions. A pile of seven dice is not necessarily a complete set if it contains a duplicate shape."
+          ],
+          "bullets": [
+            "Choose one material and colour combination to focus on.",
+            "Note which of the seven shapes you already have.",
+            "Find the missing shapes, checking the labels when appearances are close.",
+            "Complete one group before switching, if that keeps the shop easier to scan."
+          ]
+        },
+        {
+          "id": "shifts-and-skills",
+          "title": "Take each shift at your own pace",
+          "paragraphs": [
+            "Story Mode advances to the next day after you stock the required value of dice. The store also describes uninterrupted, story-free organizing. Floppy disks unlock abilities as days pass, but public sources do not give a complete unlock order.",
+            "If you plan to earn No Magic, No Problem, read its published condition before using spell skills. The public achievement text does not explain every eligibility detail."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Steam store: game description and features",
+          "url": "https://store.steampowered.com/app/3687090/Dice_Hoarder/"
+        },
+        {
+          "title": "DieCorp Games: launch features and accessibility options",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/744943222106619964"
+        }
+      ],
+      "related": ["dice-sets", "sorting-dice", "game-modes"]
+    },
+    {
+      "slug": "sorting-dice",
+      "category": "guides",
+      "title": "How to Sort Dice and Complete Sets",
+      "description": "A practical routine for similar finishes, missing shapes, and keeping a large dice search manageable.",
+      "eyebrow": "THE BASICS",
+      "updated": "2026-11-19",
+      "readTime": 3,
+      "featured": false,
+      "image": "sorting.webp",
+      "imageAlt": "Colorful polyhedral dice arranged inside the Dice Hoarder shop",
+      "sections": [
+        {
+          "id": "check-identity",
+          "title": "Check identity before placing a match",
+          "paragraphs": [
+            "When two dice look nearly alike, use the material and colour labels in the left-hand panel instead of relying on appearance alone. DieCorp Games specifically describes the panel as a readable way to identify a held or selected die.",
+            "Keep identity and completeness as separate checks: a matching finish still needs all seven shapes."
+          ],
+          "table": {
+            "headers": ["Check", "What to compare", "Why it helps"],
+            "rows": [
+              ["Material", "The readable material label", "Distinguishes similar finishes"],
+              ["Colour", "The readable colour label", "Avoids guessing from lighting"],
+              ["Shape", "One of each required die type", "Catches duplicate pieces"]
+            ]
+          }
+        },
+        {
+          "id": "focused-routine",
+          "title": "Use a small checklist for each set",
+          "paragraphs": [
+            "Choose one set and record only its missing shapes. When a candidate die appears, compare its labels before adding it to your plan. A paper checklist is enough if keeping the whole shop in mind becomes distracting.",
+            "This is an organizational suggestion, not a hidden scoring rule or a benchmarked fastest route."
+          ],
+          "bullets": [
+            "Confirm the material and colour.",
+            "Mark the shapes already found.",
+            "Search for only the remaining shapes.",
+            "Try the zoom option if small dice are difficult to select."
+          ]
+        },
+        {
+          "id": "abilities-and-achievements",
+          "title": "Check your goal before using abilities",
+          "paragraphs": [
+            "Story Mode has no timer according to the store description, so you can pause to inspect an uncertain match. Before experimenting with spell skills, check No Magic, No Problem if that achievement matters to you; its public description says to sort everything without spell skills but does not specify every edge case.",
+            "The [dice set reference](/wiki/dice-sets/) lists all seven shapes. The [comfort settings guide](/guides/accessibility/) covers zoom and readable labels."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Steam store: set composition and no-timer play",
+          "url": "https://store.steampowered.com/app/3687090/Dice_Hoarder/"
+        },
+        {
+          "title": "DieCorp Games: readable die labels and zoom",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/744943222106619964"
+        },
+        {
+          "title": "Official Steam achievement descriptions",
+          "url": "https://steamcommunity.com/stats/3687090/achievements/?l=english"
+        }
+      ],
+      "related": ["beginner-guide", "dice-sets", "achievement-guide"]
+    },
+    {
+      "slug": "game-modes",
+      "category": "wiki",
+      "title": "Story Mode, Chill Mode, and Zen Mode",
+      "description": "Compare shift-based story play with uninterrupted sorting, and understand the naming difference in official descriptions.",
+      "eyebrow": "WAYS TO PLAY",
+      "updated": "2026-11-15",
+      "readTime": 3,
+      "featured": true,
+      "image": "shop.webp",
+      "imageAlt": "The Dice Hoarder shop with rows of wooden dice displays",
+      "sections": [
+        {
+          "id": "choose-a-mode",
+          "title": "Choose between the shop story and uninterrupted sorting",
+          "paragraphs": [
+            "Story Mode combines sorting shifts with the mystery of the shop. The Steam store describes a separate, story-free option for continuous organizing.",
+            "There is a naming difference: the store calls it Chill Mode, while the developer's launch announcement calls the uninterrupted option Zen Mode. Those sources do not establish that Chill and Zen are two different menu choices."
+          ],
+          "table": {
+            "headers": ["Choice", "Published description", "May suit"],
+            "rows": [
+              ["Story Mode", "Daily shifts and a shop mystery", "Players who want a narrative alongside sorting"],
+              ["Story-free option", "Uninterrupted organizing", "Players who want to focus on the dice"]
+            ]
+          }
+        },
+        {
+          "id": "story-progression",
+          "title": "How does Story Mode progress?",
+          "paragraphs": [
+            "In Story Mode, the next day begins once you have stocked the required value of dice. The game description says there are no timers, so shift progression is not described as a race against a countdown.",
+            "The store and launch announcement describe the shop mystery and its story-free alternative. Neither source is a complete walkthrough of every story event."
+          ]
+        },
+        {
+          "id": "story-tone",
+          "title": "What if you are unsure about the story's tone?",
+          "paragraphs": [
+            "In a September FAQ, DieCorp Games described spooky elements but said it was not aiming to make a horror game or include overly graphic or disturbing material. That is the developer's description, not an age rating or a guarantee about each player's comfort.",
+            "If you prefer to avoid the mystery, the store's story-free option is the documented alternative."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Steam store: Story Mode and Chill Mode",
+          "url": "https://store.steampowered.com/app/3687090/Dice_Hoarder/"
+        },
+        {
+          "title": "DieCorp Games: launch features and Zen Mode",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/744943222106619964"
+        },
+        {
+          "title": "DieCorp Games: September FAQ and optional story",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/686389990174754221"
+        }
+      ],
+      "related": ["beginner-guide", "dice-sets", "launch"]
+    },
+    {
+      "slug": "dice-sets",
+      "category": "wiki",
+      "title": "Dice Hoarder Dice Sets: All Seven Shapes",
+      "description": "Identify the D4, D6, D8, D10, D12, D20, and percentile die, then compare material and colour.",
+      "eyebrow": "FIELD REFERENCE",
+      "updated": "2026-11-15",
+      "readTime": 3,
+      "featured": true,
+      "image": "collection.webp",
+      "imageAlt": "A collection of colorful polyhedral dice in the Dice Hoarder shop",
+      "sections": [
+        {
+          "id": "seven-pieces",
+          "title": "A matching set has seven different pieces",
+          "paragraphs": [
+            "The official store describes each set as seven dice: a D4, D6, D8, D10, D12, D20, and a percentile die. Matching the design is only part of the task; the set also needs every shape.",
+            "The letter D followed by a number is conventional tabletop notation for a die's number of sides."
+          ],
+          "table": {
+            "headers": ["Piece", "Typical shape", "Set count"],
+            "rows": [
+              ["D4", "Four-sided triangular pyramid", "1"],
+              ["D6", "Six-sided cube", "1"],
+              ["D8", "Eight-sided form", "1"],
+              ["D10", "Ten-sided die with individual digits", "1"],
+              ["D12", "Twelve-sided die", "1"],
+              ["D20", "Twenty-sided die", "1"],
+              ["Percentile", "Ten-sided die marked in tens", "1"]
+            ]
+          }
+        },
+        {
+          "id": "matching-finishes",
+          "title": "Match colour and material as well as shape",
+          "paragraphs": [
+            "The developer says the left-hand panel displays material and colour for a held or selected die. Use those labels when lighting or similar finishes make a visual match uncertain.",
+            "A D10 and the percentile die both have ten sides but fill separate positions. If a set is short one piece, check the label and the missing shape instead of relying on the total count alone."
+          ]
+        },
+        {
+          "id": "catalogue-scope",
+          "title": "Is there a complete list of every design?",
+          "paragraphs": [
+            "The Steam store states that the game includes more than 400 sets, but the cited public descriptions do not provide a complete material-and-colour catalogue. This page sticks to the common seven-piece structure rather than guessing a full inventory.",
+            "For a practical way to check labels and missing pieces, see the [sorting guide](/guides/sorting-dice/)."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Steam store: seven-piece composition and set count",
+          "url": "https://store.steampowered.com/app/3687090/Dice_Hoarder/"
+        },
+        {
+          "title": "DieCorp Games: material and colour labels",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/744943222106619964"
+        }
+      ],
+      "related": ["sorting-dice", "beginner-guide", "achievement-guide"]
+    },
+    {
+      "slug": "achievement-guide",
+      "category": "guides",
+      "title": "Achievement Guide: All 16 Requirements",
+      "description": "Track set milestones, skill goals, hidden collectibles, and the no-spell challenge using published Steam requirements.",
+      "eyebrow": "TRACK YOUR PROGRESS",
+      "updated": "2026-11-19",
+      "readTime": 5,
+      "featured": false,
+      "image": "collection.webp",
+      "imageAlt": "Dice gathered in a shop display in Dice Hoarder",
+      "sections": [
+        {
+          "id": "set-achievements",
+          "title": "Set and display milestones",
+          "paragraphs": [
+            "The official Steam list contains 16 achievements. The requirements below are reproduced as a checklist; the list also contains story and discovery spoilers."
+          ],
+          "table": {
+            "headers": ["Achievement", "Published requirement"],
+            "rows": [
+              ["Roll for Initiative", "Place your first die"],
+              ["Gather Your Party", "Complete your first set"],
+              ["A Growing Hoard", "Complete 50 sets"],
+              ["Hoarder's Keep", "Complete 100 sets"],
+              ["Even Dragons Are Jealous", "Complete 200 sets"],
+              ["Lawful Organised", "Fully stock a nine-slot dice display"],
+              ["Dungeon Cleared!", "Restock every set correctly"]
+            ]
+          }
+        },
+        {
+          "id": "skills-and-crafting",
+          "title": "Skills and resin crafting",
+          "paragraphs": [
+            "Learning all eight skills and fully upgrading every skill are separate goals. The store describes floppy disks that unlock abilities as the days pass, but the public descriptions do not provide a complete disk route, upgrade budget, or resin recipe."
+          ],
+          "table": {
+            "headers": ["Achievement", "Published requirement"],
+            "rows": [
+              ["Your First Cantrip", "Learn your first skill"],
+              ["Multiclass Madness", "Learn all eight skills"],
+              ["Archmage", "Fully upgrade every skill"],
+              ["Artificer's Touch", "Create your first resin die"]
+            ]
+          }
+        },
+        {
+          "id": "special-goals",
+          "title": "Special interactions and unusual goals",
+          "paragraphs": [
+            "These requirements ask for actions beyond ordinary set completion. Misfit set deliberately uses seven dice from different sets in one display slot; it is different from building a matching seven-piece set.",
+            "Hungry Hoarder is about eating all hidden edible dice, not simply finding them. The achievement text does not publish their number or locations."
+          ],
+          "table": {
+            "headers": ["Achievement", "Published requirement"],
+            "rows": [
+              ["Find Familiar", "Pet the cat"],
+              ["You're a natural!", "Roll a natural 20 in a rolling tray"],
+              ["Hungry Hoarder", "Eat all hidden edible dice in the shop"],
+              ["Misfit set", "Put seven dice from different sets in one display slot"],
+              ["No Magic, No Problem", "Sort everything without spell skills"]
+            ]
+          }
+        },
+        {
+          "id": "no-magic-plan",
+          "title": "Plan the no-spell challenge before experimenting",
+          "paragraphs": [
+            "If No Magic, No Problem is your goal, a cautious plan is to leave spell skills unused during that attempt. The published description does not establish whether learning a skill alone affects eligibility, whether use can be undone, or which save and mode rules apply.",
+            "Treat this as a checklist of documented requirements, not a tested fastest route or a guarantee about hidden achievement logic."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Steam achievement requirements",
+          "url": "https://steamcommunity.com/stats/3687090/achievements/?l=english"
+        },
+        {
+          "title": "Official Steam store: sets and floppy-disk abilities",
+          "url": "https://store.steampowered.com/app/3687090/Dice_Hoarder/"
+        },
+        {
+          "title": "DieCorp Games: launch features and resin crafting",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/744943222106619964"
+        }
+      ],
+      "related": ["dice-sets", "floppy-disk-locations", "edible-dice"]
+    },
+    {
+      "slug": "floppy-disk-locations",
+      "category": "guides",
+      "title": "Floppy Disks: Finding All Eight Skills",
+      "description": "A version-aware search checklist for floppy disks, with player-reported skill names and clearly marked location uncertainty.",
+      "eyebrow": "SKILL CHECKLIST",
+      "updated": "2026-11-19",
+      "readTime": 5,
+      "featured": false,
+      "image": "shop.webp",
+      "imageAlt": "The shop floor and dice displays where floppy disks are searched for",
+      "sections": [
+        {
+          "id": "what-is-confirmed",
+          "title": "What do official sources confirm?",
+          "paragraphs": [
+            "The Steam store says floppy disks unlock abilities as the days pass, and Steam lists an achievement for learning all eight skills. These facts establish the total skill count, but not an exact spawn location or a fixed day-by-day route.",
+            "The names below come from a player discussion and should be compared with the skills shown in your own game. They are not an official ordered unlock list."
+          ]
+        },
+        {
+          "id": "skill-list",
+          "title": "Eight skill names reported by players",
+          "paragraphs": [
+            "A discussion about seven of eight skills lists these names. Check which ones you already have so a search focuses on the missing name, rather than assuming the final entry is always the same."
+          ],
+          "table": {
+            "headers": ["Reported skill", "Checklist"],
+            "rows": [
+              ["Nimble Step", "Check your installed skills"],
+              ["Extended Reach", "Check your installed skills"],
+              ["Fleet Foot", "Check your installed skills"],
+              ["Dice Summons", "Check your installed skills"],
+              ["True Sight", "Check your installed skills"],
+              ["Guidance", "Check your installed skills"],
+              ["Critical Sort", "Check your installed skills"],
+              ["Extended Placement", "Check your installed skills"]
+            ]
+          }
+        },
+        {
+          "id": "search-routine",
+          "title": "Use a repeatable search between shifts",
+          "paragraphs": [
+            "Players report checking boxes and shop corners, including the special dice section. The exact spots and timing are community leads, not a tested route; reports do not establish an exact level-to-disk schedule.",
+            "Patch 1.0.7 changed some abilities after they were found: True Sight now glows through objects, Restore Dice highlights recovered dice, and Dice Summons is no longer limited to perfect sets. Older videos may describe earlier behavior."
+          ],
+          "bullets": [
+            "Record which skills you already have.",
+            "Sweep one area before moving to another.",
+            "Recheck shop corners after a later shift rather than assuming a disk must be present now.",
+            "If a disk appears invisible, install the Day 1 Hotfix Patch and reload before concluding that it is missing."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Steam store: floppy disks and day progression",
+          "url": "https://store.steampowered.com/app/3687090/Dice_Hoarder/"
+        },
+        {
+          "title": "Official Steam achievement descriptions",
+          "url": "https://steamcommunity.com/stats/3687090/achievements/?l=english"
+        },
+        {
+          "title": "Player discussion: seven of eight skills and Extended Placement",
+          "url": "https://steamcommunity.com/app/3687090/discussions/0/565925331242948011/"
+        },
+        {
+          "title": "Player reports: skill-disk search areas",
+          "url": "https://steamcommunity.com/app/3687090/discussions/0/565925331242895451/"
+        },
+        {
+          "title": "Player report: disks near the special-dice section",
+          "url": "https://steamcommunity.com/app/3687090/discussions/0/565925331242947139/"
+        },
+        {
+          "title": "DieCorp Games: patch 1.0.7 ability changes",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/698781869448101893"
+        },
+        {
+          "title": "DieCorp Games: Day 1 Hotfix Patch",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/744943222106620604"
+        }
+      ],
+      "related": ["achievement-guide", "beginner-guide", "accessibility"]
+    },
+    {
+      "slug": "edible-dice",
+      "category": "collectibles",
+      "title": "Edible Dice: Community Search Checklist",
+      "description": "Search reported hiding places for Hungry Hoarder while keeping player findings separate from official requirements.",
+      "eyebrow": "HIDDEN COLLECTIBLES",
+      "updated": "2026-11-19",
+      "readTime": 5,
+      "featured": true,
+      "image": "collection.webp",
+      "imageAlt": "Colorful dice collected inside the Dice Hoarder shop",
+      "sections": [
+        {
+          "id": "community-leads",
+          "title": "Treat hiding places as search leads",
+          "paragraphs": [
+            "Steam's Hungry Hoarder achievement says to eat all hidden edible dice in the shop. Players report ten edible dice selected from multiple possible hiding places, but that count and the candidate locations are community findings, not developer-confirmed coordinates or a route independently tested by this site.",
+            "Use the landmark list as a set of places to inspect, not a promise that every save contains a die in each spot."
+          ],
+          "table": {
+            "headers": ["Landmark", "Reported candidate spaces"],
+            "rows": [
+              ["Bed and cat furniture", "Pillows, below a bed leg, and the lower compartment of the climbing tree"],
+              ["Computer and counter", "The gap beside a cup and pencil holder; books above the globe; behind upright luggage"],
+              ["Plants and windows", "Behind pots on hanging shelves, near a drooping plant, and beside the entrance"],
+              ["Displays and upper fixtures", "Low display braces, a curtain-rail corner, and inside a lamp shade"],
+              ["Radio shelf", "Behind nearby books, reported from a view near F6"]
+            ]
+          }
+        },
+        {
+          "id": "search-method",
+          "title": "Keep your search organized",
+          "paragraphs": [
+            "Use two marks in a note: inspected and found. Finish one area before moving to another, and change your viewing angle around objects that block a small space. An empty spot is consistent with the reported variation, so do not let one failed candidate stop the search.",
+            "These are suggested search habits, not a measured fastest route. Edible dice are separate from the matching pieces used in ordinary sets."
+          ]
+        },
+        {
+          "id": "crouching-and-interaction",
+          "title": "Use the available movement options, then interact",
+          "paragraphs": [
+            "Some players report needing crouching around low gaps, display supports, or a lamp; others reached some of those places without it. The developer confirms crouching is unlockable and says zoom can make small dice easier to see and select.",
+            "The achievement says to eat the hidden dice. Merely spotting a candidate is not the stated requirement. Use the interaction shown in your current game rather than assuming a keyboard binding from another player's setup."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Steam achievement descriptions",
+          "url": "https://steamcommunity.com/stats/3687090/achievements/?l=english"
+        },
+        {
+          "title": "DieCorp Games: zoom and unlockable crouching",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/744943222106619964"
+        },
+        {
+          "title": "MaeveSomeTea: edible-dice discussion and reader findings",
+          "url": "https://steamcommunity.com/app/3687090/discussions/0/565925331242895339/"
+        },
+        {
+          "title": "Cerebellum_CROW: illustrated candidate hiding places",
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3839396073"
+        },
+        {
+          "title": "JuneberryBliss: reported count and save variation",
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3839444812"
+        }
+      ],
+      "related": ["achievement-guide", "floppy-disk-locations", "dice-sets"]
+    },
+    {
+      "slug": "accessibility",
+      "category": "guides",
+      "title": "Accessibility and Camera Comfort Settings",
+      "description": "Find the documented camera, colour, zoom, input, and interface options, with version notes for later fixes.",
+      "eyebrow": "PLAY YOUR WAY",
+      "updated": "2026-11-19",
+      "readTime": 4,
+      "featured": false,
+      "image": "shop.webp",
+      "imageAlt": "A bright view across the Dice Hoarder shop and its sorting displays",
+      "sections": [
+        {
+          "id": "camera-comfort",
+          "title": "Options for camera comfort",
+          "paragraphs": [
+            "DieCorp Games lists adjustable field of view, optional head bob, a motion-blur toggle, and inverted controls. Head bob is described as disabled by default. The announcement does not publish slider ranges, so there is no single numerical setting recommended here.",
+            "Change one relevant option at a time so you can tell whether it helps your own setup."
+          ]
+        },
+        {
+          "id": "readability-and-selection",
+          "title": "Make small dice and similar finishes easier to read",
+          "paragraphs": [
+            "The developer lists colour-blind options and a simplified UI toggle. The panel at the left of the screen identifies the material and colour of a held or selected die, so you can compare its text as well as its appearance.",
+            "Zoom makes dice larger and easier to pick up. A crouching ability can also move you closer to floor dice after it is unlocked; the public announcement does not say it is available immediately."
+          ]
+        },
+        {
+          "id": "controls-and-patch-notes",
+          "title": "Check controls and later fixes",
+          "paragraphs": [
+            "The game was designed primarily for mouse and keyboard. The developer also describes controller support designed around Xbox controllers, plus keyboard and controller rebinding. Steam labels controller support as partial, so that label should not be read as a promise of identical support for every device.",
+            "The Day 1 Hotfix and patch 1.0.7 add further fixes for dark lighting, dice appearance, zoom behavior, and map controls. Check those dated notes if older advice does not match your current game."
+          ],
+          "table": {
+            "headers": ["Issue", "Documented option or next step"],
+            "rows": [
+              ["Environment looks very dark", "Try turning Global Illumination off; patch 1.0.7 also improves lighting"],
+              ["Picked-up dice need repeated handling", "Check the auto-add to inventory option"],
+              ["Holding zoom is uncomfortable", "Check the zoom-toggle option"],
+              ["Map is awkward to close", "With the map keybind option enabled, the same key and Esc can close it in 1.0.7"]
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "DieCorp Games: launch accessibility and compatibility notes",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/744943222106619964"
+        },
+        {
+          "title": "DieCorp Games: Day 1 Hotfix Patch",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/744943222106620604"
+        },
+        {
+          "title": "DieCorp Games: patch 1.0.7",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/698781869448101893"
+        },
+        {
+          "title": "Official Steam store: controller support and feature list",
+          "url": "https://store.steampowered.com/app/3687090/Dice_Hoarder/"
+        }
+      ],
+      "related": ["beginner-guide", "sorting-dice", "launch"]
+    },
+    {
+      "slug": "launch",
+      "category": "updates",
+      "title": "Release Notes and Patch 1.0.7",
+      "description": "A dated summary of the launch, Day 1 Hotfix, and patch 1.0.7 changes, with official announcements for the full details.",
+      "eyebrow": "GAME UPDATES",
+      "updated": "2026-11-19",
+      "readTime": 5,
+      "featured": false,
+      "image": "shop.webp",
+      "imageAlt": "The Dice Hoarder shop shown in an official game screenshot",
+      "sections": [
+        {
+          "id": "release-details",
+          "title": "Release and platform details",
+          "paragraphs": [
+            "The Steam store lists Dice Hoarder's release date as November 13, 2026. DieCorp Games develops and publishes the single-player Windows game. The launch announcement set the opening time at 11 AM Pacific Standard Time, which was early on November 14 for players in China, Japan, and South Korea.",
+            "Use the live Steam listing for current availability, price, and system requirements. This page records selected dated changes and is not a live patch feed."
+          ]
+        },
+        {
+          "id": "day-one",
+          "title": "Day 1 Hotfix",
+          "paragraphs": [
+            "The Day 1 Hotfix addressed floppy disks that could be invisible until a reload for some players and improved dark lighting. Its announcement also includes troubleshooting for dice saved in incorrect slots; those instructions are specific to that issue and are not a general missing-disk command.",
+            "The same notes described Steam Cloud as upcoming at that time. Patch 1.0.7 later added Steam Cloud saves, so the older status should not be treated as current."
+          ]
+        },
+        {
+          "id": "patch-107",
+          "title": "What patch 1.0.7 changed",
+          "paragraphs": [
+            "Patch 1.0.7 adds Steam Cloud saves. If Steam asks you to choose between Cloud and Local data, the developer recommends comparing dates and choosing the more recent save.",
+            "The patch changes some ability behavior and improves lighting and crafting. It reports only a partial fix for running out of memory while loading older saves; the developer says remaining cases are still being investigated."
+          ],
+          "table": {
+            "headers": ["Area", "Published change"],
+            "rows": [
+              ["Steam Cloud", "Cloud saves added; compare save dates if prompted to resolve a conflict"],
+              ["Abilities", "True Sight glows through objects; Restore Dice highlights recovered dice; Dice Summons is no longer limited to perfect sets"],
+              ["Lighting and crafting", "Lighting and dice appearance improve with Global Illumination off; resin instructions are clearer"],
+              ["Map and objects", "The configured map key and Esc can close the map; fixes address a floating box and a Critical Sort D20 with no free display slot"],
+              ["Older saves", "Memory failures are only partially addressed; remaining cases are under investigation"]
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Steam store: release date and platform",
+          "url": "https://store.steampowered.com/app/3687090/Dice_Hoarder/"
+        },
+        {
+          "title": "DieCorp Games: launch times and features",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/744943222106619964"
+        },
+        {
+          "title": "DieCorp Games: Day 1 Hotfix Patch",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/744943222106620604"
+        },
+        {
+          "title": "DieCorp Games: patch 1.0.7 and Steam Cloud saves",
+          "url": "https://steamcommunity.com/games/3687090/announcements/detail/698781869448101893"
+        },
+        {
+          "title": "Official Steam news feed",
+          "url": "https://store.steampowered.com/news/app/3687090"
+        }
+      ],
+      "related": ["accessibility", "floppy-disk-locations", "game-modes"]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Dice Hoarder Wiki",
+  "shortName": "Dice Hoarder",
+  "description": "An independent field guide to Dice Hoarder by DieCorp Games. Browse beginner guides, dice sets, skills, collectibles, and source-backed game updates.",
+  "url": "https://juary.github.io/dicehoarderwiki/",
+  "basePath": "/dicehoarderwiki/",
+  "relatedSite": "https://dicehoarder.site/",
+  "repository": "https://github.com/juary/dicehoarderwiki",
+  "steam": "https://store.steampowered.com/app/3687090/Dice_Hoarder/",
+  "news": "https://store.steampowered.com/news/app/3687090",
+  "developer": "DieCorp Games",
+  "maintainer": "Juary",
+  "reviewed": "2026-11-19",
+  "themeColor": "#14191c",
+  "game": {
+    "genre": "First-person organizing game",
+    "platform": "Windows / Steam",
+    "players": "Single-player",
+    "releaseDate": "Nov 13, 2026"
+  },
+  "ui": {
+    "home": "Home",
+    "about": "About",
+    "search": "Search the wiki",
+    "searchPlaceholder": "Try D20, skill disks, or edible dice...",
+    "searchHint": "Dice Hoarder guides, references, and updates.",
+    "searchEmpty": "No pages found. Try another dice type or topic.",
+    "searchLoading": "Loading the Dice Hoarder guide...",
+    "searchError": "Search could not load. Browse the categories or try again.",
+    "close": "Close search",
+    "theme": "Switch color theme",
+    "menu": "Menu",
+    "skip": "Skip to content",
+    "viewAll": "View all pages",
+    "readGuide": "Read the guide",
+    "onThisPage": "On this page",
+    "sources": "Sources and further reading",
+    "related": "Keep exploring",
+    "backToTop": "Back to top",
+    "footerNotice": "An independent fan project. Not affiliated with or endorsed by DieCorp Games. Game artwork and screenshots belong to their respective owners.",
+    "footerCredit": "Built for curious collectors and the open web."
+  }
+}

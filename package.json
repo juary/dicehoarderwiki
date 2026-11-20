@@ -1,0 +1,20 @@
+{
+  "name": "dicehoarderwiki",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An independent English-language Dice Hoarder wiki and field guide.",
+  "homepage": "https://juary.github.io/dicehoarderwiki/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juary/dicehoarderwiki.git"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
